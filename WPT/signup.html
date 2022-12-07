@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>signup Page</title>
+        <link rel="stylesheet" href="css/signup.css">
+        <script src="js/sign.js"></script>
+        <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    </head>
+    <body>
+        <form onsubmit="return val()" action="html/main.html">
+            <section class="container">
+                <div class="heading">
+                    <p>Create New Account</p>
+                </div>
+                <hr>
+                <div class="content">
+                    <div class="first">
+                        <input class="textbar" id = "text1" type="text" placeholder="First Name*">
+                        <label id="text1l">*</label>
+                        <input class="textbar" id = "text2" type="text" placeholder="Last Name*">
+                        <label id="text2l">*</label>
+                    </div>
+                    <br>
+                    <div class="second">
+                        <input class="textbar" id = "text3" type="text" placeholder="Age">
+                       
+                        <input class="textbar" id = "text4"type="text" placeholder="City*">
+                        <label id="text4l">*</label>
+                    </div>
+                    <br>
+                    <div class="third">
+                        <input class="textbar" id = "text5" type="text" placeholder="Mobile No / Email-id*">
+                        <label id="text5l">*</label>
+                    </div>
+                    <br>
+                    <div class="four">
+                        <input class="textbar" id = "text6" type="password" placeholder="Enter Password*">
+                        <label id="text6l">*</label>
+                        <input class="textbar" id = "text7"type="password" placeholder="Confirm Password*">
+                        <label id="text7l">*</label>
+                    </div>
+                    <div class="content2">
+                        <p>Date of Birth : </p>
+                    </div>
+                    <div class="selection">
+                        <div class="birthcity">
+                            <div class="selectionbirth">
+                                <input  class="textbar" type="date" name="date" id="date" placeholder="Enter date of birth" max="1920-12-12">
+                                <label id="datel">*</label>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="selectiongender">
+                           <div class="gendercontent">
+                                <label>Select Gender : </label>
+                           </div> 
+                           <div class="radiobut">
+                                <div class="but1">
+                                    <label class="rad1">Male</label>
+                                    <input type="radio" name="gender" value="Male">
+                                </div>
+                                <div class="but2">
+                                    <label class="rad2">Female</label>
+                                    <input type="radio" name="gender" value="Female">
+                                </div>
+                                <div class="but3">
+                                    <label class="rad3">Other</label>
+                                    <input type="radio" name="gender" value="Other">
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="signbut">
+                            <input type="submit" value="SIGN UP">
+                        </div>
+                        <div class="last">
+                            <a href="file:///C:/cdac/project/WPT/html/login.html"><p>Already have an account?</p></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </form>
+    </body>
+</html>

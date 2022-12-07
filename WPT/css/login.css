@@ -1,0 +1,66 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 210%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.container{
+
+   width: 50vh;
+   height: 47vh;
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.headcontent{
+
+    height:60px;
+    margin-top: 20px;
+}
+
+.headcontent p{
+
+    font-size: 200%;
+    font-weight: 600;
+}
+
+.username input{
+
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.pass input{
+
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+.logbut input{
+
+    width: 40%;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+

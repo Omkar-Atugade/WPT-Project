@@ -1,0 +1,29 @@
+<table>
+                    <tr class="listline1">
+                        <td>Pregnancy Checkup</td>
+                        <td>Arthritis Test</td>
+                        <td>Thyroid Test</td>
+                        <td>HbA1c Test</td>
+                        <td>PSA test</td>
+                        <td>Uric Acid Test</td>
+                        <td>Vitamin D Test</td>
+                    </tr>
+                    <tr class="listline2">
+                        <td>STD Test</td>
+                        <td>Diabetes Test</td>
+                        <td>Kidney Function Test</td>
+                        <td>CBC test</td>
+                        <td>Urine Test</td>
+                        <td>Sugar Test</td>
+                        <td>PCOS Test</td>
+                    </tr>
+                    <tr class="listline3">
+                        <td>Hepatitis B Test</td>
+                        <td>HIV Test</td>
+                        <td>Liver Function Test</td>
+                        <td>Typhoid Test</td>
+                        <td>Dengue Test</td>
+                        <td>Allergy Testing</td>
+                        <td>Malaria Test</td>
+                    </tr>
+                </table>

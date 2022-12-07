@@ -1,0 +1,218 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    
+    width: 60vh;
+    height: 85vh;
+    padding: 10px;
+    background-color: white;
+    border: solid black 2px;
+    margin-left: 550px;
+    border-radius: 10px;
+}
+
+.heading {
+
+    font-size: 140%;
+    font-weight: 600;
+}
+
+.content{
+
+    margin-top: 30px;
+}
+
+.textbar{
+
+    width:180px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#text3{
+
+    margin-right: 12px;
+}
+
+#text5{
+
+    width: 380px;
+}
+
+.content2{
+
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.selection{
+
+    text-align: left;
+}
+
+.birthcity{
+
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+    margin-left: 10px;
+}
+
+.selectiongender{
+
+    margin-left: 10px;
+}
+
+
+.radiobut {
+
+    display: flex;
+    margin-top: 10px;
+}
+
+.but1 {
+
+    border: solid black 1px;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+}
+
+.but1 label{
+
+    margin-left: 10px;
+}
+
+.but1 input{
+
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.but2 {
+
+    display: flex;
+    border: solid black 1px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+}
+
+.but2 label{
+
+    margin-left: 5px;
+    margin-top: 7px;
+    
+}
+
+.but2 input{
+
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.but3{
+
+    border: solid black 1px;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 100px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+}
+
+.but3 label{
+
+    margin-left: 10px;
+}
+
+.but3 input{
+
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.signbut{
+
+    margin-top: 10px;
+    margin-left: 120px;
+   
+}
+
+.signbut input{
+
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.last{
+
+    margin-left: 130px;
+}
+
+#text1l{
+
+    color: red; 
+    visibility:hidden;
+}
+
+#text2l{
+
+    color: red; 
+    visibility: hidden;
+}
+
+#text4l{
+
+    color: red; 
+    visibility: hidden;
+}
+
+#text5l{
+
+    color: red; 
+    visibility:hidden;
+}
+
+#text6l{
+
+    color: red; 
+    visibility: hidden;
+}
+
+#text7l{
+
+    color: red; 
+    visibility: hidden;
+}
+
+#datel{
+
+    color: red; 
+    visibility: hidden;
+}
+
+

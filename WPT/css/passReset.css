@@ -1,0 +1,69 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20vh;
+
+}
+
+.container{
+
+    width: 50vh;
+    height: 40vh;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 10px;
+    
+}
+
+.headcontent{
+    
+    height: 6vh;
+    margin-bottom: 20px;
+}
+
+.headcontent p{
+
+    font-size: 180%;
+    font-weight: 600;
+}
+
+.password input{
+
+    width: 90%;
+    height: 5vh;
+    border-radius: 5px;
+
+}
+
+
+.confirmpassword input{
+
+    width: 90%;
+    height: 5vh;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+.setbut input{
+
+    margin-top: 3vh;
+    width: 15vh;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
+
